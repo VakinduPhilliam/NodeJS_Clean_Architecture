@@ -17,7 +17,8 @@ Features:
 > Prepared for testing: The test suite uses Mocha, Chai and is prepared to run unit, integration and functional tests right from the beginning.  
 A FactoryGirl adapter for Mongo is setup to make your tests DRY as well, and the tests generate code coverage measurement with. You should read about the Chai plugins that are setup by default too. 
 
-> Dependency injection: With Awilix, a practical dependency injection library, the code will not be coupled and it'll still be easy to resolve automatically the dependencies on the runtime and mock them during the tests. It's even possible inject dependencies on your controllers with the Awilix Express adapter. 
+> Dependency injection: With Awilix, a practical dependency injection library, the code will not be coupled and it'll still be easy to resolve automatically the dependencies on the runtime and mock them during the tests. 
+It's even possible inject dependencies on your controllers with the Awilix Express adapter. 
 
 >Logging: The Log4js logger is highly pluggable, being able to append the messages to a file during the development and send them to a logging service when on production. Even the requests (through Morgan) and queries will be logged. 
 
